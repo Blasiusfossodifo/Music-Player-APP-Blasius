@@ -33,10 +33,7 @@ steps:
     apkFiles: '**/*.apk'
     apksign: false
     zipalignFile: 'Germany'
-  inputs:
-    platform: '$(buildPlatform)'
 - task: DeleteFiles@1
   inputs:
     SourceFolder: 'D:\Projekten\Visual Studio\CSharp\App\Curiculum Vitae'
     Contents: 'readme'
-    configuration: '$(buildConfiguration)'
